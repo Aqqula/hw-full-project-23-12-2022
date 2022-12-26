@@ -1,12 +1,14 @@
-.welcome{
+.thank{
     height: 100vh;
     padding: var(--space-size);
     background-color: var(--color-main);
-    background-image: url(./../bg-images/welcome-bg-mb.png);
+    background-image: url(./../bg-images/thank-you-page-bg-mb.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: top right;
     color: var(--color-light);
+
+    padding-left: var(--space-size);
 }
 .logo{
     display: block;
@@ -14,35 +16,39 @@
     height: 50px;
     margin-top: 15px;
 }
-.welcome__article{
+.thank__article{
+    width: 70%;
+    margin-top: 16%;
     display: flex;
     flex-direction: column;
     height: 88vh;
 }
-.welcome__heading{
-    font-size: 1.375rem;
+.thank__heading{
+    font-size: 2.25rem;
     margin-top: 30px;
     line-height: 1.23;
 }
 
-.welcome__article p{
+.thank__article p{
     padding-top: 0.7rem;
     font-weight: 600;
+    line-height: 1.625;
 }
-.welcome__article strong{
+.thank__article strong{
     font-weight: 900;
 }
-.welcome__article .btn{
-    max-width: 232px;
+.thank__article .btn{
+    max-width: 300px;
     margin-top: auto;
     align-self: center;
     background-color: var(--color-light);
     color: var(--color-main); 
 }
 
+
 @media (min-width: 576px) {
-    .welcome{
-        background-image: url(./../bg-images/welcome-bg-dt.png);
+    .thank{
+        background-image: url(./../bg-images/thank-you-page-bg-dt.png);
         background-position: 70% bottom;
     }
   }
@@ -52,10 +58,10 @@
         width: 98px;
         height: 98px;
     }
-    .welcome__article{
+    .thank__article{
         width: 60%;
     }
-    .welcome__article .btn{
+    .thank__article .btn{
         align-self: initial;
         margin-top: 3rem;
     }
