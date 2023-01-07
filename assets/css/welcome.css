@@ -270,4 +270,45 @@
     .sale p{
         width: 80%;
     }
+
+    
+    .certificate-article{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .certificate-info{
+        flex-direction: row-reverse;
+        padding-bottom: 1rem;
+    }
+    .certificate-img{
+        padding-bottom: 0;
+    }
+    .certificate-img img{
+        width: 441px;
+        height: 527px;
+    }
+    .certificate-p :first-child{
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: "Montserrat Alternates", sans-serif;
+        padding-bottom: 0.7rem;
+        width: 85%;
+    }
+    .certificate-input{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .certificate-input .btn{
+        margin-top: 0px;
+        color: var(--color-light);
+        max-height: 80px;
+        max-width: 270px;
+    }
+    .certificate-input input {
+        max-width: 270px;
+        min-height: 80px;
+    }
   }
